@@ -1,0 +1,23 @@
+{
+  "name": "electron-puppeteer-demo",
+  "productName": "electron-puppeteer-demo",
+  "description": "Demo of Electron + Puppeteer + Jest.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Peter Danis <peter.danis@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterdanis/electron-puppeteer-demo"
+  },
+  "main": "app/app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest app.test.js",
+    "test-no-jest": "node tests/test.js"
+  },
+  "devDependencies": {
+    "electron": "5",
+    "jest": "^24.7.1",
+    "puppeteer-core": "1.15.0"
+  }
+}
